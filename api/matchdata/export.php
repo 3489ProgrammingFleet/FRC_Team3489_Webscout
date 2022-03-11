@@ -19,10 +19,10 @@ $eventId = 16;
 
 // Static elements of the csv header
 $csvHeaderStdArr = array(
-    1 => "Team #",
-    2 => "Match #",
-    3 => "Scout",
-    4 => "Note"
+    2 => "Team #",
+    3 => "Match #",
+    4 => "Scout",
+    5 => "Note"
 );
 
 // Add the question IDs to the header
@@ -32,25 +32,11 @@ $csvHeaderQuestionsArray = array(
     3 => "AQ3",
     4 => "AQ4",
     5 => "AQ5",
-    6 => "AQ6",
-    7 => "AQ7",
-    8 => "AQ8",
-    9 => "AQ9",
-    10 => "TQ1",
-    11 => "TQ2",
-    12 => "TQ3",
-    13 => "TQ4",
-    14 => "TQ5",
-    15 => "TQ6",
-    16 => "TQ7",
-    17 => "TQ8",
-    18 => "TQ9",
-    19 => "EQ1",
-    20 => "EQ2",
-    21 => "EQ3",
-    22 => "EQ4",
-    23 => "EQ5",
-    24 => "EQ6",
+    6 => "TQ1",
+    7 => "TQ2",
+    8 => "TQ3",
+    9 => "EQ1",
+    10 => "EQ2"
 );
 
 
