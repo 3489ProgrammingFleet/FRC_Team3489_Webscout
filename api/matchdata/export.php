@@ -15,10 +15,11 @@ $db = $database->getConnection();
 
 // !!!!!!!!!!!!!!!!!!!!!!!
 // get event id !!!!!!!! TODO!
-$eventId = 16;
+$eventId = 19;
 
 // Static elements of the csv header
 $csvHeaderStdArr = array(
+    1 => "Event",
     2 => "Team #",
     3 => "Match #",
     4 => "Scout",
@@ -31,10 +32,10 @@ $csvHeaderQuestionsArray = array(
     2 => "AQ2",
     3 => "AQ3",
     4 => "AQ4",
-    5 => "AQ5",
-    6 => "TQ1",
-    7 => "TQ2",
-    8 => "TQ3",
+    5 => "TQ1",
+    6 => "TQ2",
+    7 => "TQ3",
+    8 => "TQ4",
     9 => "EQ1",
     10 => "EQ2"
 );
@@ -72,6 +73,7 @@ if($num>0){
 
         // Add static part
         $scoutingDataItem=array(
+            "event_id" => $eventId,
             "team_no" => $team_number,
             "match_no" => $match_no,
             "scout_id" => $scout_id,
