@@ -10,9 +10,9 @@
 
     // Palmetto Regional 2020: event_id=6 ; 2020scmb
 
-    $event_id = 19;
+    $event_id = 20;
 
-    $ch = curl_init("https://www.thebluealliance.com/api/v3/event/2022tnkn/matches");
+    $ch = curl_init("https://www.thebluealliance.com/api/v3/event/2022new/matches");
 
     //Set header with the auth key
     curl_setopt($ch, CURLOPT_HTTPHEADER, array('X-TBA-Auth-Key: ' . $tba_apikey));
